@@ -38,7 +38,7 @@ body {
 /* ==================== NAVIGATION ==================== */
 .navbar {
     background-color: var(--dark-card);
-    padding: 1rem 0;
+    padding: 5px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -56,7 +56,7 @@ body {
 }
 
 .nav-brand img {
-    height: 50px;
+    height: 70px;
     display: block;
 }
 

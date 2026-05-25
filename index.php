@@ -11,7 +11,7 @@
     />
   </head>
   <body>
-    <?php include 'compoent/header.php'; ?>
+    <?php include 'component/header.php'; ?>
 
     <!-- Hero Section -->
         <div class="container">
@@ -215,7 +215,7 @@
       </div>
     </section>
 
-    <?php include 'compoent/footer.php'; ?>
+    <?php include 'component/footer.php'; ?>
 
     <script src="script.js"></script>
   </body>

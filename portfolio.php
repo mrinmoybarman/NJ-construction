@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - NJ Construction</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <?php include 'component/header.php'; ?>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Our Portfolio</h1>
+        <p>Showcase of Our Latest Projects</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="portfolio-filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Residential</button>
+                <button class="filter-btn">Commercial</button>
+                <button class="filter-btn">Interior</button>
+                <button class="filter-btn">Renovations</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #D4AF37, #C9A961);">
+                        <div class="overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Modern Family Home</h3>
+                        <p class="category">RESIDENTIAL</p>
+                        <p class="description">Stunning 5-bedroom contemporary home with smart home features</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #C9A961, #8B7500);">
+                        <div class="overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Office Building Complex</h3>
+                        <p class="category">COMMERCIAL</p>
+                        <p class="description">State-of-the-art office complex with green building certification</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="interior">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #8B7500, #D4AF37);">
+                        <div class="overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Luxury Apartment Renovation</h3>
+                        <p class="category">INTERIOR</p>
+                        <p class="description">Complete interior redesign with luxury finishes and modern aesthetics</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #D4AF37, #C0C0C0);">
+                        <div class="overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Beach House Renovation</h3>
+                        <p class="category">RENOVATIONS</p>
+                        <p class="description">Complete beachfront home transformation with ocean views</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #C0C0C0, #8B7500);">
+                        <div class="overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Retail Shopping Center</h3>
+                        <p class="category">COMMERCIAL</p>
+                        <p class="description">Multi-tenant retail space with modern design and ample parking</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="interior">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #8B7500, #C0C0C0);">
+                        <div class="overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Kitchen & Bath Remodel</h3>
+                        <p class="category">INTERIOR</p>
+                        <p class="description">High-end kitchen and bathroom renovation with premium fixtures</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #D4AF37, #8B7500);">
+                        <div class="overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Custom Estate Home</h3>
+                        <p class="category">RESIDENTIAL</p>
+                        <p class="description">Luxurious 8-bedroom estate with guest house and resort amenities</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #C9A961, #C0C0C0);">
+                        <div class="overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Medical Facility</h3>
+                        <p class="category">COMMERCIAL</p>
+                        <p class="description">State-of-the-art medical facility with specialized technical systems</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="renovations">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #8B7500, #D4AF37);">
+                        <div class="overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Historic Home Restoration</h3>
+                        <p class="category">RENOVATIONS</p>
+                        <p class="description">Careful restoration of 1920s historic home with modern updates</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #C0C0C0, #D4AF37);">
+                        <div class="overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Urban Townhome</h3>
+                        <p class="category">RESIDENTIAL</p>
+                        <p class="description">Modern 3-story townhome in downtown area with rooftop deck</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="interior">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #D4AF37, #C9A961);">
+                        <div class="overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Home Theater Setup</h3>
+                        <p class="category">INTERIOR</p>
+                        <p class="description">Custom home theater with premium audio/visual installation</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #C9A961, #8B7500);">
+                        <div class="overlay">
+                            <a href="#" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Restaurant Build-Out</h3>
+                        <p class="category">COMMERCIAL</p>
+                        <p class="description">Full commercial kitchen and dining space with unique design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-container">
+                <div class="stat-card">
+                    <h3>500+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-card">
+                    <h3>25+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-card">
+                    <h3>1000+</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat-card">
+                    <h3>$500M+</h3>
+                    <p>Project Value</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Contact us today for a free consultation and detailed quote</p>
+            <a href="contact.html" class="btn btn-primary">Get Free Quote</a>
+        </div>
+    </section>
+
+    <?php include 'component/footer.php'; ?>
+
+    <script src="script.js"></script>
+</body>
+</html>
