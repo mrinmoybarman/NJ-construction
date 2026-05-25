@@ -11,28 +11,7 @@
     />
   </head>
   <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-      <div class="nav-container">
-        <div class="nav-brand">
-          <img src="assets/logo.jpeg" alt="NJ Construction" class="logo" />
-        </div>
-        <ul class="nav-menu">
-          <li><a href="index.html" class="nav-link active">Home</a></li>
-          <li><a href="about.html" class="nav-link">About</a></li>
-          <li><a href="services.html" class="nav-link">Services</a></li>
-          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-          <li><a href="team.html" class="nav-link">Team</a></li>
-          <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
-          <li><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
-        <div class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    </nav>
+    <?php include 'compoent/header.php'; ?>
 
     <!-- Hero Section -->
         <div class="container">
@@ -47,8 +26,8 @@
           deliver excellence on every project.
         </p>
         <div class="hero-buttons">
-          <a href="contact.html" class="btn btn-primary">Get Started</a>
-          <a href="portfolio.html" class="btn btn-secondary">View Portfolio</a>
+          <a href="contact.php" class="btn btn-primary">Get Started</a>
+          <a href="portfolio.php" class="btn btn-secondary">View Portfolio</a>
         </div>
       </div>
       <div class="hero-image">
@@ -68,7 +47,7 @@
                     <span class="section-label">About Us</span>
                     <h2>Trusted Construction Experts Since 1999</h2>
                     <p>NJ Construction began in 1999 with a mission to deliver exceptional construction and design that exceeds client expectations. Over 25 years, we have grown from a small team into a trusted New Jersey leader by combining traditional craftsmanship with modern technology, attention to detail, and a customer-first approach. We focus on quality, integrity, and transparent communication on every residential, commercial, and renovation project. Our team builds lasting relationships by delivering spaces that are beautiful, functional, and built to last. Experience reliable service, superior craftsmanship, and a partnership you trust.</p>
-                    <a href="about.html" class="btn btn-secondary">Read More</a>
+                    <a href="about.php" class="btn btn-secondary">Read More</a>
                 </div>
                 <div class="about-preview-image"></div>
             </div>
@@ -114,7 +93,7 @@
               Build your dream home with our expert residential construction
               services.
             </p>
-            <a href="services.html" class="learn-more">Learn More →</a>
+            <a href="services.php" class="learn-more">Learn More →</a>
           </div>
           <div class="service-card">
             <i class="fas fa-industry"></i>
@@ -123,7 +102,7 @@
               Transform your business space with our commercial construction
               expertise.
             </p>
-            <a href="services.html" class="learn-more">Learn More →</a>
+            <a href="services.php" class="learn-more">Learn More →</a>
           </div>
           <div class="service-card">
             <i class="fas fa-paint-brush"></i>
@@ -131,7 +110,7 @@
             <p>
               Elevate your spaces with stunning interior design and renovations.
             </p>
-            <a href="services.html" class="learn-more">Learn More →</a>
+            <a href="services.php" class="learn-more">Learn More →</a>
           </div>
           <div class="service-card">
             <i class="fas fa-tools"></i>
@@ -140,7 +119,7 @@
               Breathe new life into your existing property with professional
               renovations.
             </p>
-            <a href="services.html" class="learn-more">Learn More →</a>
+            <a href="services.php" class="learn-more">Learn More →</a>
           </div>
         </div>
       </div>
@@ -222,7 +201,7 @@
           </div>
         </div>
         <div style="text-align: center; margin-top: 3rem">
-          <a href="portfolio.html" class="btn btn-primary">View All Projects</a>
+          <a href="portfolio.php" class="btn btn-primary">View All Projects</a>
         </div>
       </div>
     </section>
@@ -232,57 +211,11 @@
       <div class="container">
         <h2>Ready to Start Your Project?</h2>
         <p>Don't wait, contact us today and let's bring your vision to life</p>
-        <a href="contact.html" class="btn btn-primary">Get Your Free Quote</a>
+        <a href="contact.php" class="btn btn-primary">Get Your Free Quote</a>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-section">
-            <h4>About NJ Construction</h4>
-            <p>
-              Building Dreams Into Reality - Your trusted partner in
-              construction excellence for over 25 years.
-            </p>
-          </div>
-          <div class="footer-section">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h4>Contact Info</h4>
-            <p>📞 Phone: +1 (555) 123-4567</p>
-            <p>📧 Email: info@njconstruction.com</p>
-            <p>📍 Address: 123 Construction Ave, New Jersey, NJ 08001</p>
-          </div>
-          <div class="footer-section">
-            <h4>Follow Us</h4>
-            <div class="social-links">
-              <a href="#" class="social-icon"
-                ><i class="fab fa-facebook"></i
-              ></a>
-              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-              <a href="#" class="social-icon"
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a href="#" class="social-icon"
-                ><i class="fab fa-linkedin"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>&copy; 2024 NJ Construction. All rights reserved.</p>
-        </div>
-      </div>
-    </footer>
+    <?php include 'compoent/footer.php'; ?>
 
     <script src="script.js"></script>
   </body>
